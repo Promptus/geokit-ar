@@ -5,7 +5,7 @@ Basically, this is just the original geokit-rails3 with all the rails and contro
 
 Installation only via bundler:
 
-    gem "geokit-rails3", :git => "git://github.com/Promptus/geokit-rails3.git"
+    gem "geokit-ar", :git => "git://github.com/Promptus/geokit-ar.git"
 
 What follows is the original README.
 

@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path("../lib/geokit-rails3/version", __FILE__)
+require File.expand_path("../lib/geokit-ar/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "geokit-rails3"
-  s.version     = GeokitRails3::VERSION
+  s.name        = "geokit-ar"
+  s.version     = GeokitAr::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Andre Lewis", "Bill Eisenhauer", "Jeremy Lecour", "Martin Tepper"]
   s.email       = ["andre@earthcode.com", "bill_eisenhauer@yahoo.com", "jeremy.lecour@gmail.com", "mt@promptus-partners.de"]
-  s.homepage    = "http://github.com/Promptus/geokit-rails3"
+  s.homepage    = "http://github.com/Promptus/geokit-ar"
   s.summary     = "Integrate Geokit with Active Record"
   s.description = "Port of the Rails plugin \"geokit-rails\" to Active Record, as a gem"
 
