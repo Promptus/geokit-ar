@@ -1,3 +1,14 @@
+This is a quick & dirty hack based on https://github.com/jlecour/geokit-rails3 to provide geokit functionality
+without the Rails parts, for use with ActiveRecord in other frameworks like Sinatra.
+
+Basically, this is just the original geokit-rails3 with all the rails and controller stuff chopped.
+
+Installation only via bundler:
+
+    gem "geokit-rails3", :git => "git://github.com/Promptus/geokit-rails3.git"
+
+What follows is the original README.
+
 # WARNING
 
 This gem is an attempt to port [Andre Lewis' great **geokit-rails**](https://github.com/andre/geokit-gem) to Rails 3.

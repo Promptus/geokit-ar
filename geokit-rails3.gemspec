@@ -5,16 +5,16 @@ Gem::Specification.new do |s|
   s.name        = "geokit-rails3"
   s.version     = GeokitRails3::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Andre Lewis", "Bill Eisenhauer", "Jeremy Lecour"]
-  s.email       = ["andre@earthcode.com", "bill_eisenhauer@yahoo.com", "jeremy.lecour@gmail.com"]
-  s.homepage    = "http://github.com/jlecour/geokit-rails3"
-  s.summary     = "Integrate Geokit with Rails 3"
-  s.description = "Port of the Rails plugin \"geokit-rails\" to Rails 3, as a gem"
+  s.authors     = ["Andre Lewis", "Bill Eisenhauer", "Jeremy Lecour", "Martin Tepper"]
+  s.email       = ["andre@earthcode.com", "bill_eisenhauer@yahoo.com", "jeremy.lecour@gmail.com", "mt@promptus-partners.de"]
+  s.homepage    = "http://github.com/Promptus/geokit-rails3"
+  s.summary     = "Integrate Geokit with Active Record"
+  s.description = "Port of the Rails plugin \"geokit-rails\" to Active Record, as a gem"
 
   s.required_rubygems_version = ">= 1.3.6"
   # s.rubyforge_project         = "test_gem"
 
-  s.add_runtime_dependency 'rails', '~> 3.0'
+  s.add_runtime_dependency 'activerecord', '~> 3.0'
   s.add_runtime_dependency 'geokit', '~> 1.5'
 
   s.add_development_dependency "bundler", "> 1.0"
